@@ -1417,12 +1417,12 @@ ol ol {
 }
 .list-unstyled {
   padding-left: 0;
-  list-style: none;
+  list-style: circle;
 }
 .list-inline {
   padding-left: 0;
   margin-left: -5px;
-  list-style: none;
+  list-style: circle;
 }
 .list-inline > li {
   display: inline-block;
