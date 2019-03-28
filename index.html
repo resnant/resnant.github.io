@@ -1,416 +1,503 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-109652821-2"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-109652821-2"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
 
-  gtag('config', 'UA-109652821-2');
-</script>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Yuta Suzuki</title>
-<meta name="description" content="">
-<meta name="author" content="">
+    gtag('config', 'UA-109652821-2');
+  </script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Yuta Suzuki</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
 
-<!-- Favicons
+  <!-- Favicons
     ================================================== -->
-<!-- <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon"> -->
-<!-- <link rel="apple-touch-icon" href="img/apple-touch-icon.png"> -->
-<link rel="apple-touch-icon" sizes="72x72" href="img/apple-touch-icon-72x72.png">
-<link rel="apple-touch-icon" sizes="114x114" href="img/apple-touch-icon-114x114.png">
+  <!-- <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon"> -->
+  <!-- <link rel="apple-touch-icon" href="img/apple-touch-icon.png"> -->
+  <link rel="apple-touch-icon" sizes="72x72" href="img/apple-touch-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="img/apple-touch-icon-114x114.png">
 
-<!-- Bootstrap -->
-<link rel="stylesheet" type="text/css"  href="css/bootstrap.css">
-<link rel="stylesheet" type="text/css" href="fonts/font-awesome/css/font-awesome.css">
+  <!-- Bootstrap -->
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="fonts/font-awesome/css/font-awesome.css">
 
-<!-- Stylesheet
+  <!-- Stylesheet
     ================================================== -->
-<link rel="stylesheet" type="text/css"  href="css/style.css">
-<link rel="stylesheet" type="text/css" href="css/prettyPhoto.css">
-<link href='http://fonts.googleapis.com/css?family=Lato:400,700,900,300' rel='stylesheet' type='text/css'>
-<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,800,600,300' rel='stylesheet' type='text/css'>
-<script type="text/javascript" src="js/modernizr.custom.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/prettyPhoto.css">
+  <link href='http://fonts.googleapis.com/css?family=Lato:400,700,900,300' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,800,600,300' rel='stylesheet' type='text/css'>
+  <script type="text/javascript" src="js/modernizr.custom.js"></script>
 
-<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-<!--[if lt IE 9]>
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 </head>
+
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
 
-<!-- Header -->
-<header id="header">
-  <div class="intro">
-    <div class="container">
-      <div class="row">
-        <div class="intro-text">
-          <h1>Hello, I'm <span class="name">Yuta Suzuki</span></h1>
-          <p>Postgraduate student in Materials Informatics</p>
-          <a href="#about" class="btn btn-default btn-lg page-scroll">See More</a> </div>
+  <!-- Header -->
+  <header id="header">
+    <div class="intro">
+      <div class="container">
+        <div class="row">
+          <div class="intro-text">
+            <h1>Hello, I'm <span class="name">Yuta Suzuki</span></h1>
+            <p>Postgraduate student in Materials Informatics</p>
+            <a href="#about" class="btn btn-default btn-lg page-scroll">See More</a>
+          </div>
+        </div>
       </div>
     </div>
+  </header>
+  <!-- Navigation -->
+  <div id="nav">
+    <nav class="navbar navbar-custom">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse"> <i
+              class="fa fa-bars"></i> </button>
+          <a class="navbar-brand page-scroll" href="#page-top">Yuta Suzuki</a> </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+          <ul class="nav navbar-nav">
+            <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+            <li class="hidden"> <a href="#page-top"></a> </li>
+            <li> <a class="page-scroll" href="#about">About</a> </li>
+            <!-- <li> <a class="page-scroll" href="#skills">Skills</a> </li> -->
+            <li> <a class="page-scroll" href="#portfolio">Publications</a> </li>
+            <li> <a class="page-scroll" href="#resume">Resume</a> </li>
+            <li> <a class="page-scroll" href="#contact">Contact</a> </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
   </div>
-</header>
-<!-- Navigation -->
-<div id="nav">
-  <nav class="navbar navbar-custom">
+  <!-- About Section -->
+  <div id="about">
     <div class="container">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse"> <i class="fa fa-bars"></i> </button>
-        <a class="navbar-brand page-scroll" href="#page-top">Yuta Suzuki</a> </div>
-      
-      <!-- Collect the nav links, forms, and other content for toggling -->
-      <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
-        <ul class="nav navbar-nav">
-          <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
-          <li class="hidden"> <a href="#page-top"></a> </li>
-          <li> <a class="page-scroll" href="#about">About</a> </li>
-          <!-- <li> <a class="page-scroll" href="#skills">Skills</a> </li> -->
-          <li> <a class="page-scroll" href="#portfolio">Publications</a> </li>
-          <li> <a class="page-scroll" href="#resume">Resume</a> </li>
-          <li> <a class="page-scroll" href="#contact">Contact</a> </li>
-        </ul>
+      <div class="section-title text-center center">
+        <h2>About Me</h2>
+        <hr>
       </div>
-    </div>
-  </nav>
-</div>
-<!-- About Section -->
-<div id="about">
-  <div class="container">
-    <div class="section-title text-center center">
-      <h2>About Me</h2>
-      <hr>
-    </div>
-    <div class="row">
-      <div class="col-md-12 text-center"><img src="img/about.jpg" class="img-responsive"></div>
-      <div class="col-md-8 col-md-offset-2">
-        <div class="about-text">
-          <p>I'm in the 2nd year of a Master's degree in materials science, working on the knowledge discovery from materials to develop and design novel materials; now I focus on the development of materials characterization techniques that combined with machine learning.</p>
-          <p>I'm interested in what kind of change will occur in the world by utilizing machine learning and related technologies, and I would like to contribute to realizing a better world from the industrial standpoint.</p>
-          
-          <p class="text-center"><a class="btn btn-primary" href="yuta_suzuki_CV.pdf" target="_blank"><i class="fa fa-download"></i> Download CV</a></p>
+      <div class="row">
+        <div class="col-md-12 text-center"><img src="img/about.jpg" class="img-responsive"></div>
+        <div class="col-md-8 col-md-offset-2">
+          <div class="about-text">
+            <p>I'm in the 2nd year of a Master's degree in materials science, working on the knowledge discovery from
+              materials to develop and design novel materials; now I focus on the development of materials
+              characterization techniques that combined with machine learning.</p>
+            <p>I'm interested in what kind of change will occur in the world by utilizing machine learning and related
+              technologies, and I would like to contribute to realizing a better world from the industrial standpoint.
+            </p>
+
+            <p class="text-center"><a class="btn btn-primary" href="yuta_suzuki_CV.pdf" target="_blank"><i
+                  class="fa fa-download"></i> Download CV</a></p>
+          </div>
         </div>
       </div>
     </div>
   </div>
-</div>
-<!-- Skills Section -->
-<div id="skills" class="text-center">
-  <div class="container">
-    <div class="section-title center">
-      <h2>Skills</h2>
-      <hr>
-      I can say I'm quite good at
-    </div>
-    <div class="row">
-      <div class="col-md-3 col-sm-6 skill"> <span class="chart" data-percent="75"> <span class="percent">75</span> </span>
-        <h4>Python</h4>
+  <!-- Skills Section -->
+  <div id="skills" class="text-center">
+    <div class="container">
+      <div class="section-title center">
+        <h2>Skills</h2>
+        <hr>
+        I can say I'm quite good at
       </div>
-      <div class="col-md-3 col-sm-6 skill"> <span class="chart" data-percent="80"> <span class="percent">80</span> </span>
-        <h4>Scikit Learn</h4>
-      </div>
-      <div class="col-md-3 col-sm-6 skill"> <span class="chart" data-percent="35"> <span class="percent">35</span> </span>
-        <h4>Keras</h4>
-      </div>
-      <div class="col-md-3 col-sm-6 skill"> <span class="chart" data-percent="40"> <span class="percent">40</span> </span>
-        <h4>SQL</h4>
-      </div>
+      <div class="row">
+        <div class="col-md-3 col-sm-6 skill"> <span class="chart" data-percent="75"> <span class="percent">75</span>
+          </span>
+          <h4>Python</h4>
+        </div>
+        <div class="col-md-3 col-sm-6 skill"> <span class="chart" data-percent="80"> <span class="percent">80</span>
+          </span>
+          <h4>Scikit Learn</h4>
+        </div>
+        <div class="col-md-3 col-sm-6 skill"> <span class="chart" data-percent="35"> <span class="percent">35</span>
+          </span>
+          <h4>Keras</h4>
+        </div>
+        <div class="col-md-3 col-sm-6 skill"> <span class="chart" data-percent="40"> <span class="percent">40</span>
+          </span>
+          <h4>SQL</h4>
+        </div>
       </div>
       <!-- TODO: Write here -->
     </div>
   </div>
-</div>
-<!-- Portfolio Section -->
-<div id="portfolio">
+  </div>
+  <!-- Portfolio Section -->
+  <div id="portfolio">
+    <div class="container">
+      <div class="section-title text-center">
+        <h2>Publications</h2>
+        <hr>
+      </div>
+      <div class="categories">
+        <ul class="cat">
+          <li>
+            <ol class="type">
+              <li><a href="#" data-filter="*" class="active">All</a></li>
+              <li><a href="#" data-filter=".paper">Papers</a></li>
+              <li><a href="#" data-filter=".talk">Talks</a></li>
+            </ol>
+          </li>
+        </ul>
+        <div class="clearfix"></div>
+      </div>
+
+      <div class="portfolio-items">
+        <div class="col-md-8 col-md-offset-2 talk">
+          <ul class="list-unstyled">
+            <li><u>鈴木雄太</u>, 小嗣真人, 日野英逸, 小野寛太, “回折パターンデータベースの構築と機械学習による結晶構造予測”, 2018年度量子ビームサイエンスフェスタ, 12, Mar. (2019)
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-8 col-md-offset-2 talk">
+          <ul class="list-unstyled">
+            <li><u>鈴木雄太</u>, 小嗣真人, 日野英逸, 小野寛太, “X線回折パターンからの結晶構造予測”, 第66回 応用物理学会 春季学術講演会, 9, Mar. (2019)
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-8 col-md-offset-2 paper">
+          <ul class="list-unstyled">
+            <li><u>Yuta Suzuki</u>, Hideitsu Hino, Masato Kotsugi, Kanta Ono, “Automated estimation of materials
+              parameter from X-ray absorption and electron energy-loss spectra with similarity measures”, npj
+              Computational Materials. (Accepted)
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-8 col-md-offset-2 paper">
+          <ul class="list-unstyled">
+            <li>Takahiro Yamada, <u>Yuta Suzuki</u>, Chiharu Mitsumata, Kanta Ono, Tetsuro Ueno, Ippei Obayashi, Yasuaki
+              Hirotaka, Masato Kotsugi, “パーシステントホモロジーを用いた迷路状磁区構造におけるトポロジカル欠陥の可視化 (Visualization of Topological Defect in
+              Labyrinth Magnetic Domain by Using Persistent Homology)”, 表面と真空 (Vacuum and Surface Science). (Accepted)
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-8 col-md-offset-2 paper">
+          <ul class="list-unstyled">
+            <li>Masahiro Saito, Hisaaki Ito, <u>Yuta Suzuki</u>, Masaki Mizuguchi, Tomoyuki Koganezawa, Toshio
+              Miyamachi, Fumio Komori, Koki Takanashi, Masato Kotsugi, “Fabrication of <i>L</i>1<sub>0</sub>-FeNi by
+              pulsed-laser deposition”, <a href="https://aip.scitation.org/doi/10.1063/1.5087041" target="_blank"
+                rel="noopener">Applied Physics Letters. <b>114</b>, 072404, (2019)</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-8 col-md-offset-2 talk">
+          <ul class="list-unstyled">
+            <li><u>Yuta Suzuki</u>, Hideitsu Hino, Takafumi Hawai, Masato Kotsugi, Kanta Ono, “Automated Lattice
+              Constant Estimation of X-ray Diffraction by Ensemble Learning”, The 5th International Conference on
+              Electronic Materials and Nanotechnology for Green Environment (ENGE 2018) , 11-14, Nov. (2018)
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-8 col-md-offset-2 paper">
+          <ul class="list-unstyled">
+            <li>Shingo Yamamoto, Yuya Kubota, Kohei Yamamoto, Yoshinobu Takahashi, Kohei Maruyama, <u> Yuta Suzuki</u>,
+              Rei Hobara, Masami Fujisawa, Daiki Oshima, Shigeki Owada, Tadashi Togashi, Kensuke Tono, Makina Yabashi,
+              Yasuyuki Hirata, Susumu Yamamoto, Masato Kotsugi, Hiroki Wadati, Takeshi Kato, Satoshi Iwata, Shik Shin,
+              and Iwao Matsuda, “Femtosecond resonant magneto-optical Kerr effect measurement on an ultrathin magnetic
+              film in a soft X-ray free electron laser”, <a href="https://doi.org/10.7567/JJAP.57.09TD02"
+                target="_blank" rel="noopener">Japanese Journal of Applied Physics. <b>57</b>, 09TD02, (2018)</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-8 col-md-offset-2 paper">
+          <ul class="list-unstyled">
+            <li><u>Yuta Suzuki</u>, Hideitsu Hino, Yasuo Takeichi, Takafumi Hawai, Masato Kotsugi, Kanta Ono, “Machine
+              Learning-based Crystal Structure Prediction for X-Ray Microdiffraction”, <a
+                href="https://www.cambridge.org/core/journals/microscopy-and-microanalysis/article/machine-learningbased-crystal-structure-prediction-for-xray-microdiffraction/011D284677EB8475F29F7DC6653E99A7"
+                target="_blank" rel="noopener">Microscopy and Microanalysis. <b>24</b>, 144-145, (2018)</a></p>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-8 col-md-offset-2 paper">
+          <ul class="list-unstyled">
+            <li><u>Yuta Suzuki</u>, Hideitsu Hino, Tetsuro Ueno, Yasuo Takeichi, Masato Kotsugi, Kanta Ono, “Extraction
+              of Physical Parameters from X-ray Spectromicroscopy Data Using Machine Learning”, <a
+                href="https://www.cambridge.org/core/journals/microscopy-and-microanalysis/article/extraction-of-physical-parameters-from-xray-spectromicroscopy-data-using-machine-learning/68A3D162FB7A8540070BBB28826C18A3"
+                target="_blank" rel="noopener">Microscopy and Microanalysis. <b>24</b>, 478-479, (2018)</a></p>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-8 col-md-offset-2 talk">
+          <ul class="list-unstyled">
+            <li><u>Yuta Suzuki</u>, Hideitsu Hino, Yasuo Takeichi, Takafumi Hawai, Masato Kotsugi, Kanta Ono, “Machine
+              Learning-based Crystal Structure Prediction for X-Ray Microdiffraction”, The 14th International Conference
+              on X-Ray Microscopy (XRM2018), 19-24, Aug. (2018)
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-8 col-md-offset-2 talk">
+          <ul class="list-unstyled">
+            <li><u>Yuta Suzuki</u>, Hideitsu Hino, Tetsuro Ueno, Yasuo Takeichi, Masato Kotsugi, Kanta Ono, “Extraction
+              of Physical Parameters from X-ray Spectromicroscopy Data Using Machine Learning”, The 14th International
+              Conference on X-Ray Microscopy (XRM2018), 19-24, Aug. (2018)
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-8 col-md-offset-2 paper">
+          <ul class="list-unstyled">
+            <li>Sh. Yamamoto, T. Omi, H. Akai, Y. Kubota, Y. Takahashi, <u>Y. Suzuki</u>, Y. Hirata, K. Yamamoto, R.
+              Yukawa, K. Horiba, H. Yumoto, T. Koyama, H. Ohashi, S. Owada, K. Tono, M. Yabashi, E. Shigemasa, S.
+              Yamamoto, M. Kotsugi, H. Wadati, H. Kumigashira, T. Arima, S. Shin, and I. Matsuda, “Element selectivity
+              in second-harmonic generation of GaFeO3 by a soft-x-ray free-electron laser”, <a
+                href="https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.120.223902" target="_blank"
+                rel="noopener">Physical Review Letters. <b>120</b>, 223902, (2018)</a></p>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-8 col-md-offset-2 talk">
+          <ul class="list-unstyled">
+            <li><u>Yuta Suzuki</u>, Masato Kotsugi, Hideitsu Hino, Kanta Ono, “Classification of Crystal Structure from
+              X-ray Diffraction Patterns using Machine Learning”, The 13th International Conference on Synchrotron
+              Radiation Instrumentation (SRI 2018), 11-15, Jun. (2018)
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-8 col-md-offset-2 talk">
+          <ul class="list-unstyled">
+            <li><u>Yuta Suzuki</u>, Masato Kotsugi, Hideitsu Hino, Kanta Ono, “Estimation of Physical Parameters using
+              Dimensionality Reduction of X-Ray Absorption Spectra”, The 13th International Conference on Synchrotron
+              Radiation Instrumentation (SRI 2018), 11-15, Jun. (2018)
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-8 col-md-offset-2 talk">
+          <ul class="list-unstyled">
+            <li><u>鈴木雄太</u>, 小嗣真人, 日野英逸, 小野寛太, “機械学習を用いたX線回折パターンの分類”, 第73回日本物理学会 春季年次大会, 23, Mar. (2018)
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-8 col-md-offset-2 talk">
+          <ul class="list-unstyled">
+            <li><u>鈴木雄太</u>, 小嗣真人, 日野英逸, 小野寛太, “スペクトルの次元削減によるデータ可視化および物理量推定の検討”, 第65回応用物理学会 春季学術講演会, 20, Mar. (2018)
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-8 col-md-offset-2 talk">
+          <ul class="list-unstyled">
+            <li><u>鈴木雄太</u>, 小嗣真人, 日野英逸, 小野寛太, “X線吸収スペクトルからの物理量の自動抽出”, 第31回日本放射光学会年会・放射光科学合同シンポジウム, 9, Jan. (2018)
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-8 col-md-offset-2 talk">
+          <ul class="list-unstyled">
+            <li><u>Yuta Suzuki</u>, Masato Kotsugi, Hideitsu Hino, Kanta Ono, “Comparison of similarity measures in
+              x-ray absorption spectra for automated physical property estimation”, The 8th International Symposium on
+              Surface Science, 23, Oct. (2017)
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-8 col-md-offset-2 talk">
+          <ul class="list-unstyled">
+            <li><u>鈴木雄太</u>, 小嗣真人, “パルスレーザー蒸着(PLD)装置の高度化および金属薄膜における表面モフォロジーの評価”, 第64回応用物理学会春季学術講演会, 17, Mar. (2017)
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-8 col-md-offset-2 talk">
+          <ul class="list-unstyled">
+            <li><u>鈴木雄太</u>, 小嗣真人, “金属超薄膜の作製に向けたパルスレーザー蒸着装置”, 顕微ナノ材料科学研究会・放射光表面科学研究部会 合同シンポジウム, 2, Mar. (2017) <b>The
+                best poster award</b>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- Finalcial grant Section -->
   <div class="container">
-    <div class="section-title text-center">
-      <h2>Publications</h2>
-      <hr>
-    </div>
-    <div class="categories">
-      <ul class="cat">
-        <li>
-          <ol class="type">
-            <li><a href="#" data-filter="*" class="active">All</a></li>
-            <li><a href="#" data-filter=".paper">Papers</a></li>
-            <li><a href="#" data-filter=".talk">Talks</a></li>
-          </ol>
-        </li>
-      </ul>
-      <div class="clearfix"></div>
-    </div>
-
-    <div class="portfolio-items">
-        <div class="col-md-8 col-md-offset-2 talk">
-            <ul class="list-unstyled">
-                <li><u>Yuta Suzuki</u>, Hideitsu Hino, Takafumi Hawai, Masato Kotsugi, Kanta Ono, “Automated Lattice Constant Estimation of X-ray Diffraction by Ensemble Learning”, The 5th International Conference on Electronic Materials and Nanotechnology for Green Environment (ENGE 2018) , 11-14, Nov. (2018)
-                </li>
-              </ul>
-        </div>
-        <div class="col-md-8 col-md-offset-2 paper">
-            <ul class="list-unstyled">
-                <li>Shingo Yamamoto, Yuya Kubota, Kohei Yamamoto, Yoshinobu Takahashi, Kohei Maruyama, <u> Yuta Suzuki</u>, Rei Hobara, Masami Fujisawa, Daiki Oshima, Shigeki Owada, Tadashi Togashi, Kensuke Tono, Makina Yabashi, Yasuyuki Hirata, Susumu Yamamoto, Masato Kotsugi, Hiroki Wadati, Takeshi Kato, Satoshi Iwata, Shik Shin, and Iwao Matsuda,  “Femtosecond resonant magneto-optical Kerr effect measurement on an ultrathin magnetic film in a soft X-ray free electron laser”, <a href="https://doi.org/10.7567/JJAP.57.09TD02" rel="nofollow">Japanese Journal of Applied Physics. <b>57</b>, 09TD02, (2018)</a>
-                </li>
-              </ul>
-        </div>
-        <div class="col-md-8 col-md-offset-2 paper">
-          <ul class="list-unstyled">
-              <li><u>Yuta Suzuki</u>, Hideitsu Hino, Yasuo Takeichi, Takafumi Hawai, Masato Kotsugi, Kanta Ono, “Machine Learning-based Crystal Structure Prediction for X-Ray Microdiffraction”, <a href="https://www.cambridge.org/core/journals/microscopy-and-microanalysis/article/machine-learningbased-crystal-structure-prediction-for-xray-microdiffraction/011D284677EB8475F29F7DC6653E99A7" rel="nofollow">Microscopy and Microanalysis. <b>24</b>, 144-145, (2018)</a></p>
-              </li>
-            </ul>
-      </div>
-        <div class="col-md-8 col-md-offset-2 paper">
-            <ul class="list-unstyled">
-                <li><u>Yuta Suzuki</u>, Hideitsu Hino, Tetsuro Ueno, Yasuo Takeichi, Masato Kotsugi, Kanta Ono, “Extraction of Physical Parameters from X-ray Spectromicroscopy Data Using Machine Learning”, <a href="https://www.cambridge.org/core/journals/microscopy-and-microanalysis/article/extraction-of-physical-parameters-from-xray-spectromicroscopy-data-using-machine-learning/68A3D162FB7A8540070BBB28826C18A3" rel="nofollow">Microscopy and Microanalysis. <b>24</b>, 478-479, (2018)</a></p>
-                </li>
-              </ul>
-        </div>
-        <div class="col-md-8 col-md-offset-2 talk">
-            <ul class="list-unstyled">
-                <li><u>Yuta Suzuki</u>, Hideitsu Hino, Yasuo Takeichi, Takafumi Hawai, Masato Kotsugi, Kanta Ono, “Machine Learning-based Crystal Structure Prediction for X-Ray Microdiffraction”, The 14th International Conference on X-Ray Microscopy (XRM2018), 19-24, Aug. (2018)
-                </li>
-              </ul>
-        </div>
-        <div class="col-md-8 col-md-offset-2 talk">
-            <ul class="list-unstyled">
-                <li><u>Yuta Suzuki</u>, Hideitsu Hino, Tetsuro Ueno, Yasuo Takeichi, Masato Kotsugi, Kanta Ono, “Extraction of Physical Parameters from X-ray Spectromicroscopy Data Using Machine Learning”, The 14th International Conference on X-Ray Microscopy (XRM2018), 19-24, Aug. (2018)
-                </li>
-              </ul>
-        </div>
-        <div class="col-md-8 col-md-offset-2 paper">
-            <ul class="list-unstyled">
-                <li>Sh. Yamamoto, T. Omi, H. Akai, Y. Kubota, Y. Takahashi, <u>Y. Suzuki</u>, Y. Hirata, K. Yamamoto, R. Yukawa, K. Horiba, H. Yumoto, T. Koyama, H. Ohashi, S. Owada, K. Tono, M. Yabashi, E. Shigemasa, S. Yamamoto, M. Kotsugi, H. Wadati, H. Kumigashira, T. Arima, S. Shin, and I. Matsuda, “Element selectivity in second-harmonic generation of GaFeO3 by a soft-x-ray free-electron laser”, <a href="https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.120.223902" rel="nofollow">Physical Review Letters. <b>120</b>, 223902, (2018)</a></p>
-                </li>
-              </ul>
-        </div>
-        <div class="col-md-8 col-md-offset-2 talk">
-            <ul class="list-unstyled">
-                <li><u>Yuta Suzuki</u>, Masato Kotsugi, Hideitsu Hino, Kanta Ono, “Classification of Crystal Structure from X-ray Diffraction Patterns using Machine Learning”,  The 13th International Conference on Synchrotron Radiation Instrumentation (SRI 2018), 11-15, Jun. (2018)
-                </li>
-              </ul>
-        </div>
-      <div class="col-md-8 col-md-offset-2 talk">
-          <ul class="list-unstyled">
-              <li><u>Yuta Suzuki</u>, Masato Kotsugi, Hideitsu Hino, Kanta Ono, “Estimation of Physical Parameters using Dimensionality Reduction of X-Ray Absorption Spectra”,  The 13th International Conference on Synchrotron Radiation Instrumentation (SRI 2018), 11-15, Jun. (2018)
-              </li>
-            </ul>
-      </div>   
-      <div class="col-md-8 col-md-offset-2 talk">
-          <ul class="list-unstyled">
-              <li><u>鈴木雄太</u>, 小嗣真人, 日野英逸, 小野寛太, “機械学習を用いたX線回折パターンの分類”, 第73回日本物理学会 春季年次大会, 23, Mar. (2018)
-              </li>
-            </ul>
-      </div> 
-      <div class="col-md-8 col-md-offset-2 talk">
-          <ul class="list-unstyled">
-              <li><u>鈴木雄太</u>, 小嗣真人, 日野英逸, 小野寛太, “スペクトルの次元削減によるデータ可視化および物理量推定の検討”, 第65回応用物理学会 春季学術講演会, 20, Mar. (2018)
-              </li>
-            </ul>
-      </div>     
-      <div class="col-md-8 col-md-offset-2 talk">
-          <ul class="list-unstyled">
-              <li><u>鈴木雄太</u>, 小嗣真人, 日野英逸, 小野寛太, “X線吸収スペクトルからの物理量の自動抽出”, 第31回日本放射光学会年会・放射光科学合同シンポジウム, 9, Jan. (2018)
-              </li>
-            </ul>
-      </div>   
-      <div class="col-md-8 col-md-offset-2 talk">
-          <ul class="list-unstyled">
-              <li><u>Yuta Suzuki</u>, Masato Kotsugi, Hideitsu Hino, Kanta Ono, “Comparison of similarity measures in x-ray absorption spectra for automated physical property estimation”, The 8th International Symposium on Surface Science, 23, Oct. (2017)
-              </li>
-            </ul>
-      </div>      
-      <div class="col-md-8 col-md-offset-2 talk">
-          <ul class="list-unstyled">
-              <li><u>鈴木雄太</u>, 小嗣真人, “パルスレーザー蒸着(PLD)装置の高度化および金属薄膜における表面モフォロジーの評価”, 第64回応用物理学会春季学術講演会, 17, Mar. (2017)
-              </li>
-            </ul>
-      </div>  
-      <div class="col-md-8 col-md-offset-2 talk">
-          <ul class="list-unstyled">
-              <li><u>鈴木雄太</u>, 小嗣真人, “金属超薄膜の作製に向けたパルスレーザー蒸着装置”, 顕微ナノ材料科学研究会・放射光表面科学研究部会 合同シンポジウム, 2, Mar. (2017) <b>The best poster award</b>
-              </li>
-            </ul>
-      </div>
-
-    </div>
-  </div>
-</div>
-
-<!-- Finalcial grant Section -->
-<div class="container">
-  <div class="section-title text-center center">
-    <h2>Reserch Grants</h2>
-    <hr>
-  </div>
-  <div class="row">
-    <div class="col-md-12">
-      <div class="about-text">
-        <div class="col-md-8 col-md-offset-2 talk">
-          <ul class="list-unstyled">
-              <li>"Development of Data Analysis Method for On-the-fly Crystal System Prediction", <a href="http://www.jst.go.jp/kisoken/act-i/en/research_area/ongoing/bunyah28-1.html" rel="nofollow">JST ACT-I "Information and Future"</a>, Oct. 2018 - Mar. 2020 (Principal Investigator)
-              </li>
-
-              <li>"Development of Automated Analysis Method of High-throughput Measurement Data Utilizing Machine Learning and Materials Database", <a href="https://www.jsps.go.jp/english/e-pd/index.html" rel="nofollow">JSPS Research Fellowship for Young Scientists (DC1)</a>, Apr. 2019 - Mar. 2022 (Principal Investigator)
-              </li>
-            </ul>
-      </div>
-      </div>
-    </div>
-  </div>
-</div>
-<!-- Resume Section -->
-<div id="resume" class="text-center">
-  <div class="container">
-    <div class="section-title center">
-      <h2>Experience</h2>
+    <div class="section-title text-center center">
+      <h2>Reserch Grants</h2>
       <hr>
     </div>
     <div class="row">
-      <div class="col-lg-12">
-        <ul class="timeline">        
-          <!-- Education Section-->
-          <li>
-            <div class="timeline-image">
-              <h4>Apr 2017 <br>
-                - <br>
-                Present </h4>
-            </div>
-            <div class="timeline-panel">
-              <div class="timeline-heading">
-                <h4>Tokyo University of Science</h4>
-                <h4 class="subheading">Master's Degree of Engeneering</h4>
-              </div>
-              <div class="timeline-body">
-                <p>Faculty of Industrial Science and Technology<br>
-                  Department of Materials Science and Technology
-                  Kotsugi Laboratory <a href="https://www.kotsugi.jp" rel="nofollow">https://www.kotsugi.jp</a></p>
-              </div>
-            </div>
-          </li>
+      <div class="col-md-12">
+        <div class="about-text">
+          <div class="col-md-8 col-md-offset-2 talk">
+            <ul class="list-unstyled">
+              <li>"Development of Data Analysis Method for On-the-fly Crystal System Prediction", <a
+                  href="http://www.jst.go.jp/kisoken/act-i/en/research_area/ongoing/bunyah28-1.html" target="_blank"
+                  rel="noopener">JST ACT-I "Information and Future"</a>, Oct. 2018 - Mar. 2020 (Principal Investigator)
+              </li>
 
-          <li class="timeline-inverted">
-            <div class="timeline-image">
-              <h4>Jun 2017 <br>
-                - <br>
-                Present </h4>
-            </div>
-            <div class="timeline-panel">
-              <div class="timeline-heading">
-                <h4>High Energy Accelerator Research Organization</h4>
-                <h4 class="subheading">Trainee Researcher</h4>
-              </div>
-              <div class="timeline-body">
-                <p>Institute of Materials Structure Science<br>
-                    Ono Laboratory <a href="http://ono.kek.jp" rel="nofollow">http://ono.kek.jp</a>
-                </p>
-              </div>
-            </div>
-          </li>
-
-          <li>
-            <div class="timeline-image">
-              <h4>Aug 2016</h4>
-            </div>
-            <div class="timeline-panel">
-              <div class="timeline-heading">
-                <h4>High Energy Accelerator Research Organization</h4>
-                <h4 class="subheading">Summer Challenge</h4>
-              </div>
-            </div>
-          </li>
-
-          <li class="timeline-inverted">
-            <div class="timeline-image">
-              <h4>Aug 2015 <br>
-                - <br>
-                Sep 2015 </h4>
-            </div>
-            <div class="timeline-panel">
-              <div class="timeline-heading">
-                <h4>National Institute for Materials Science</h4>
-                <h4 class="subheading">Internship</h4>
-              </div>
-              <div class="timeline-body">
-                <p>Development of a novel catalyst.</p>
-              </div>
-          </li>
-
-          <li>
-            <div class="timeline-image">
-              <h4>Apr 2013 <br>
-                - <br>
-                Mar 2017 </h4>
-            </div>
-            <div class="timeline-panel">
-              <div class="timeline-heading">
-                <h4>Tokyo University of Science</h4>
-                <h4 class="subheading">Bachelor's Degree of Engeneering</h4>
-              </div>
-              <div class="timeline-body">
-                <p>Faculty of Industrial Science and Technology<br>
-                  Department of Materials Science and Technology</p>
-              </div>
-            </div>
-          </li>
-        </ul>
+              <li>"Development of Automated Analysis Method of High-throughput Measurement Data Utilizing Machine
+                Learning and Materials Database", <a href="https://www.jsps.go.jp/english/e-pd/index.html"
+                  target="_blank" rel="noopener">JSPS Research Fellowship for Young Scientists (DC1)</a>, Apr. 2019 -
+                Mar. 2022 (Principal Investigator)
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
     </div>
   </div>
-</div>
-<!-- Contact Section -->
-<div id="contact" class="text-center">
-  <div class="container">
-    <div class="section-title center">
-      <h2>Contact</h2>
-      <hr>
+  <!-- Resume Section -->
+  <div id="resume" class="text-center">
+    <div class="container">
+      <div class="section-title center">
+        <h2>Experience</h2>
+        <hr>
+      </div>
+      <div class="row">
+        <div class="col-lg-12">
+          <ul class="timeline">
+            <!-- Education Section-->
+            <li>
+              <div class="timeline-image">
+                <h4>Apr 2017 <br>
+                  - <br>
+                  Present </h4>
+              </div>
+              <div class="timeline-panel">
+                <div class="timeline-heading">
+                  <h4>Tokyo University of Science</h4>
+                  <h4 class="subheading">Master's Degree of Engeneering</h4>
+                </div>
+                <div class="timeline-body">
+                  <p>Faculty of Industrial Science and Technology<br>
+                    Department of Materials Science and Technology
+                    Kotsugi Laboratory <a href="https://www.kotsugi.jp" target="_blank"
+                      rel="noopener">https://www.kotsugi.jp</a></p>
+                </div>
+              </div>
+            </li>
+
+            <li class="timeline-inverted">
+              <div class="timeline-image">
+                <h4>Jun 2017 <br>
+                  - <br>
+                  Present </h4>
+              </div>
+              <div class="timeline-panel">
+                <div class="timeline-heading">
+                  <h4>High Energy Accelerator Research Organization</h4>
+                  <h4 class="subheading">Trainee Researcher</h4>
+                </div>
+                <div class="timeline-body">
+                  <p>Institute of Materials Structure Science<br>
+                    Ono Laboratory <a href="http://ono.kek.jp" target="_blank" rel="noopener">http://ono.kek.jp</a>
+                  </p>
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="timeline-image">
+                <h4>Aug 2016</h4>
+              </div>
+              <div class="timeline-panel">
+                <div class="timeline-heading">
+                  <h4>High Energy Accelerator Research Organization</h4>
+                  <h4 class="subheading">Summer Challenge</h4>
+                </div>
+              </div>
+            </li>
+
+            <li class="timeline-inverted">
+              <div class="timeline-image">
+                <h4>Aug 2015 <br>
+                  - <br>
+                  Sep 2015 </h4>
+              </div>
+              <div class="timeline-panel">
+                <div class="timeline-heading">
+                  <h4>National Institute for Materials Science</h4>
+                  <h4 class="subheading">Research Internship</h4>
+                </div>
+                <div class="timeline-body">
+                  <p>Development of a novel catalyst.</p>
+                </div>
+            </li>
+
+            <li>
+              <div class="timeline-image">
+                <h4>Apr 2013 <br>
+                  - <br>
+                  Mar 2017 </h4>
+              </div>
+              <div class="timeline-panel">
+                <div class="timeline-heading">
+                  <h4>Tokyo University of Science</h4>
+                  <h4 class="subheading">Bachelor's Degree of Engeneering</h4>
+                </div>
+                <div class="timeline-body">
+                  <p>Faculty of Industrial Science and Technology<br>
+                    Department of Materials Science and Technology</p>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
     </div>
-    <div class="col-md-8 col-md-offset-2">
-      <!-- <div class="col-md-4"> <i class="fa fa-map-marker fa-2x"></i>
+  </div>
+  <!-- Contact Section -->
+  <div id="contact" class="text-center">
+    <div class="container">
+      <div class="section-title center">
+        <h2>Contact</h2>
+        <hr>
+      </div>
+      <div class="col-md-8 col-md-offset-2">
+        <!-- <div class="col-md-4"> <i class="fa fa-map-marker fa-2x"></i>
         <p>4321 California St,<br>
           San Francisco, CA 12345</p>
       </div> -->
-      <div class="md-4"> <i class="fa fa-envelope-o fa-2x"></i>
-        <p>resnant(at)outlook.jp</p>
-      </div>
-      <!-- <div class="col-md-4"> <i class="fa fa-phone fa-2x"></i>
+        <div class="md-4"> <i class="fa fa-envelope-o fa-2x"></i>
+          <p>resnant(at)outlook.jp</p>
+        </div>
+        <!-- <div class="col-md-4"> <i class="fa fa-phone fa-2x"></i>
         <p> +1 123 456 1234</p>
       </div> -->
-      <div class="clearfix"></div>
-    </div>
-    <div class="col-md-8 col-md-offset-2">
-      <div class="social">
-        <ul>
-          <li><a href= https://twitter.com/resnant><i class="fa fa-twitter"></i></a></li>
-          <li><a href= https://github.com/resnant><i class="fa fa-github"></i></a></li>
-          <li><a href= https://www.linkedin.com/in/yuta-suzuki-696089140><i class="fa fa-linkedin"></i></a></li>
-        </ul>
+        <div class="clearfix"></div>
+      </div>
+      <div class="col-md-8 col-md-offset-2">
+        <div class="social">
+          <ul>
+            <li><a href=https://twitter.com/resnant> <i class="fa fa-twitter"></i></a></li>
+            <li><a href=https://github.com/resnant> <i class="fa fa-github"></i></a></li>
+            <li><a href=https://www.linkedin.com/in/yuta-suzuki-696089140> <i class="fa fa-linkedin"></i></a></li>
+          </ul>
+        </div>
       </div>
     </div>
   </div>
-</div>
-<div id="footer">
-  <div class="container text-center">
-    <div class="fnav">
-      <p>Copyright &copy; 2016 John Doe. Designed by <a href="http://www.templatewire.com" rel="nofollow">TemplateWire</a></p>
+  <div id="footer">
+    <div class="container text-center">
+      <div class="fnav">
+        <p>Copyright &copy; 2016 John Doe. Designed by <a href="http://www.templatewire.com" target="_blank"
+            rel="noopener">TemplateWire</a></p>
+      </div>
     </div>
   </div>
-</div>
-<script type="text/javascript" src="js/jquery.1.11.1.js"></script> 
-<script type="text/javascript" src="js/bootstrap.js"></script> 
-<script type="text/javascript" src="js/SmoothScroll.js"></script> 
-<script type="text/javascript" src="js/easypiechart.js"></script> 
-<script type="text/javascript" src="js/jquery.prettyPhoto.js"></script> 
-<script type="text/javascript" src="js/jquery.isotope.js"></script> 
-<script type="text/javascript" src="js/jquery.counterup.js"></script> 
-<script type="text/javascript" src="js/waypoints.js"></script> 
-<script type="text/javascript" src="js/jqBootstrapValidation.js"></script> 
-<script type="text/javascript" src="js/contact_me.js"></script> 
-<script type="text/javascript" src="js/main.js"></script>
+  <script type="text/javascript" src="js/jquery.1.11.1.js"></script>
+  <script type="text/javascript" src="js/bootstrap.js"></script>
+  <script type="text/javascript" src="js/SmoothScroll.js"></script>
+  <script type="text/javascript" src="js/easypiechart.js"></script>
+  <script type="text/javascript" src="js/jquery.prettyPhoto.js"></script>
+  <script type="text/javascript" src="js/jquery.isotope.js"></script>
+  <script type="text/javascript" src="js/jquery.counterup.js"></script>
+  <script type="text/javascript" src="js/waypoints.js"></script>
+  <script type="text/javascript" src="js/jqBootstrapValidation.js"></script>
+  <script type="text/javascript" src="js/contact_me.js"></script>
+  <script type="text/javascript" src="js/main.js"></script>
 </body>
+
 </html>
