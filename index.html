@@ -75,8 +75,9 @@
             <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
             <li class="hidden"> <a href="#page-top"></a> </li>
             <li> <a class="page-scroll" href="#about">About</a> </li>
-            <!-- <li> <a class="page-scroll" href="#skills">Skills</a> </li> -->
+            <li> <a class="page-scroll" href="#research">Research</a> </li>
             <li> <a class="page-scroll" href="#portfolio">Publications</a> </li>
+            <li> <a class="page-scroll" href="#activities">Activities</a> </li>
             <li> <a class="page-scroll" href="#resume">Resume</a> </li>
             <li> <a class="page-scroll" href="#contact">Contact</a> </li>
           </ul>
@@ -84,368 +85,130 @@
       </div>
     </nav>
   </div>
-  <!-- About Section -->
-  <div id="about">
-    <div class="container">
-      <div class="section-title text-center center">
-        <h2>About Me</h2>
-        <hr>
-      </div>
-      <div class="row">
-        <div class="col-md-12 text-center"><img src="img/about.jpg" class="img-responsive"></div>
-        <div class="col-md-8 col-md-offset-2">
-          <div class="about-text">
-            <p>As a materials informatics researcher, I am enthusiastic about exploring the potential of machine learning to understand better and analyze materials. </p>
-            <p>I believe that machine learning and related technologies can have a transformative impact on the world. By continuing to push the boundaries of materials science through cutting-edge machine learning technologies, I hope to contribute to a brighter and more sustainable future.
-            </p>
+<!-- About Section -->
+<div id="about">
+  <div class="container">
+    <div class="section-title text-center center">
+      <h2>About Me</h2>
+      <hr>
+    </div>
+    <div class="row">
+      <div class="col-md-12 text-center"><img src="img/about.jpg" class="img-responsive"></div>
+      <div class="col-md-8 col-md-offset-2">
+        <div class="about-text">
+          <p>I work at the exciting intersection of machine learning and materials science. I am driven by the potential of cutting-edge machine learning techniques to accelerate materials discovery and deepen our understanding of material properties, ultimately contributing to a more sustainable future.</p>
+          <p>My background in materials science, specializing in the crystal structure analysis of functional inorganic materials, provides me with a solid foundation to explore this promising field.</p>
 
-            <!-- <p class="text-center"><a class="btn btn-primary" href="yuta_suzuki_CV.pdf" target="_blank"><i
-                  class="fa fa-download"></i> Download CV</a></p> -->
-          </div>
+          <!-- <p class="text-center"><a class="btn btn-primary" href="yuta_suzuki_CV.pdf" target="_blank"><i
+                class="fa fa-download"></i> Download CV</a></p> -->
         </div>
       </div>
     </div>
   </div>
-  <!-- Skills Section -->
-  <div id="skills" class="text-center">
-    <div class="container">
-      <div class="section-title center">
-        <h2>Skills</h2>
-        <hr>
-        I can say I'm quite good at
+</div>
+
+<!-- Research Interest Section -->
+<div id="research" class="text-center">
+  <div class="container">
+    <div class="section-title center">
+      <h2>Research Interests</h2>
+      <hr>
+    </div>
+    <div class="row">
+      <!-- Research Interest 1 -->
+      <div class="col-md-6">
+        <h3>Automated Data Analysis</h3>
+        <p>The vast amounts of data generated in materials development often pose significant analytical challenges, creating a bottleneck in research and leading to the underutilization of valuable information. My research focuses on developing machine learning algorithms to streamline this process, particularly for complex data like X-ray diffraction, uncovering hidden patterns and accelerating discoveries.</p>
       </div>
-      <div class="row">
-        <div class="col-md-3 col-sm-6 skill"> <span class="chart" data-percent="75"> <span class="percent">75</span>
-          </span>
-          <h4>Python</h4>
-        </div>
-        <div class="col-md-3 col-sm-6 skill"> <span class="chart" data-percent="80"> <span class="percent">80</span>
-          </span>
-          <h4>Scikit Learn</h4>
-        </div>
-        <div class="col-md-3 col-sm-6 skill"> <span class="chart" data-percent="50"> <span class="percent">50</span>
-          </span>
-          <h4>PyTorch</h4>
-        </div>
-        <div class="col-md-3 col-sm-6 skill"> <span class="chart" data-percent="40"> <span class="percent">40</span>
-          </span>
-          <h4>SQL</h4>
-        </div>
+      <!-- Research Interest 2 -->
+      <div class="col-md-6">
+        <h3>Materials Exploration</h3>
+        <!-- <p>For decades, materials discovery has been like searching for a specific object in a dark room.  My research leverages machine learning and computational methods to illuminate this vast materials space and predict novel materials with desired properties, making the search process more efficient and targeted.  This approach aims to go beyond traditional trial-and-error methods, leading to the discovery of innovative materials for various applications.</p> -->
+        <p>For decades, materials discovery has been performed by Edisonian trial-and-error approach - like searching for a specific object in a dark room. My research leverages machine learning and computational methods to illuminate the vast universe of possible materials, accelerating the discovery of innovative materials with desired properties.</p>
       </div>
-      <!-- TODO: Write here -->
     </div>
   </div>
-  </div>
-  <!-- Portfolio Section -->
+</div>
+
   <div id="portfolio">
     <div class="container">
       <div class="section-title text-center">
         <h2>Publications</h2>
         <hr>
+        <p> My recent publications are listed below. For a complete list, please visit my <a href="https://scholar.google.com/citations?hl=ja&user=C_3S8jgAAAAJ&view_op=list_works&sortby=pubdate" target="_blank" rel="noopener"> <b>Google Scholar</b></a> profile.</p>
       </div>
-      <div class="categories">
-        <ul class="cat">
-          <li>
-            <ol class="type">
-              <li><a href="#" data-filter="*" class="active">All</a></li>
-              <li><a href="#" data-filter=".paper">Papers</a></li>
-              <li><a href="#" data-filter=".talk">Talks</a></li>
-              <li><a href="#" data-filter=".book">Books</a></li>
-            </ol>
-          </li>
-        </ul>
-        <div class="clearfix"></div>
-      </div>
-      <!-- 業績リスト -->
+      <!-- publication list -->
       <div class="portfolio-items">
         <div class="col-md-8 col-md-offset-2 paper">
           <ul class="list-unstyled">
-            <li><u>Yuta Suzuki</u>, Tatsunori Taniai, Kotaro Saito, Yoshitaka Ushiku, Kanta Ono, “Self-supervised learning of materials concepts from crystal structures via deep neural networks”, <a
-                href="https://iopscience.iop.org/article/10.1088/2632-2153/aca23d" target="_blank" rel="noopener">Machine Learning: Science and Technology. <b>3</b>, 4, 045034, (2022)</a>
-            </li>
+            <li> Taniai, T., Igarashi, R., <b>Suzuki</b>, <b>Y.</b>, Chiba, N., Saito, K., Ushiku, Y., & Ono, K. (2023). <a href="https://omron-sinicx.github.io/crystalformer/" target="_blank" rel="noopener">Crystalformer: Infinitely connected attention for periodic structure encoding</a>. <i>The Twelfth International Conference on Learning Representations (ICLR2024)</i>. </li>
           </ul>
         </div>
 
         <div class="col-md-8 col-md-offset-2 paper">
         <ul class="list-unstyled">
-          <li><u>Yuta Suzuki</u>, “Automated Data Analysis for Powder X-Ray Diffraction Using Machine Learning”, <a
-              href="https://www.tandfonline.com/doi/full/10.1080/08940886.2022.2112496" target="_blank" rel="noopener">Synchrotron Radiation News. <b>35</b>, 4, 9-15, (2022)</a>
-          </li>
-        </ul>
-      </div>
-
-        <div class="col-md-8 col-md-offset-2 paper">
-        <ul class="list-unstyled">
-          <li><u>鈴木雄太</u>, 尾崎嘉彦, 小野寛太, “解説：情報学的手法を用いた触媒開発 ブラックボックス最適化による結晶構造解析の自動化”, <a
-              href="https://catsj.jp/jnl/pageview?articlecd=63050008000" target="_blank" rel="noopener">触媒. <b>63</b>, 294-298, (2021)</a>
-          </li>
-        </ul>
-      </div>
-
-      <div class="col-md-8 col-md-offset-2 book">
-        <ul class="list-unstyled">
-          <li><u>鈴木雄太</u>, 小野寛太, "マテリアルズ･インフォマティクスのためのデータ構築技術と材料開発へのアプローチ" 11章 第8節 "機械学習によるスペクトルデータ解析とその事例"（分担執筆）, 技術情報協会. (2021)
-          </li>
-        </ul>
-      </div>
-
-      <div class="col-md-8 col-md-offset-2 talk">
-        <ul class="list-unstyled">
-          <li><u>鈴木雄太</u>, 尾崎嘉彦, 羽合孝文, 斉藤耕太郎, 大西正輝, 小野寛太, "ブラックボックス最適化を用いたリートベルト解析の自動化", 放射光学会 学術講演会, 10, Jan. (2021), <b>The best presentation award</b>
-          </li>
-        </ul>
-      </div>
-
-        <div class="col-md-8 col-md-offset-2 paper">
-        <ul class="list-unstyled">
-          <li><u>Yuta Suzuki</u>, Hideitsu Hino, Takafumi Hawai, Kotaro Saito, Masato Kotsugi, Kanta Ono, “Symmetry prediction and knowledge discovery from X-ray diffraction patterns using an interpretable machine learning approach”, <a
-              href="https://doi.org/10.1038/s41598-020-77474-4" target="_blank" rel="noopener">Scientific Reports. <b>10</b>, 21790, (2020)</a>
-          </li>
-        </ul>
-      </div>
-
-      <div class="col-md-8 col-md-offset-2 talk">
-        <ul class="list-unstyled">
-          <li><u>鈴木雄太</u>, 奥野智也, 佐々木勇和（3人による分担発表）, <a
-              href="https://annex.jsap.or.jp/informatics/activ.html" target="_blank" rel="noopener">“深層学習と物質探索 (Deep Learning and Materials Discovery)”, </a> 26, Nov. (2020), <b>Invited</b>
-          </li>
-        </ul>
-      </div>
-
-      <div class="col-md-8 col-md-offset-2 talk">
-        <ul class="list-unstyled">
-          <li><u>鈴木雄太</u>, 小野寛太, <a href="https://www.jstage.jst.go.jp/article/jvss/2020/0/2020_25/_article/-char/ja/", target="_blank", rel="noopener">"量子ビーム計測データ解析における機械学習の応用"</a>, 日本表面真空学会 学術講演会, 19, Nov. (2020), <b>Invited</b>
-          </li>
+          <li> Chiba, N., <b>Suzuki</b>, <b>Y.</b>, Taniai, T., Igarashi, R., Ushiku, Y., Saito, K., & Ono, K. (2023). <a href="https://www.nature.com/articles/s43246-023-00432-w" target="_blank" rel="noopener">Neural structure fields with application to crystal structure autoencoders</a>. <i>Communications Materials</i>, <i>4</i> (1), 106. </li>
         </ul>
       </div>
 
       <div class="col-md-8 col-md-offset-2 paper">
-          <ul class="list-unstyled">
-            <li>奥野智也, 佐々木勇和, <u>鈴木雄太</u>, “深層学習を用いた新物質探索に関するサーベイ(A Survey on Material Discovery by Deep Neural Networks)”, <a
-              href="https://ipsj.ixsq.nii.ac.jp/ej/index.php?active_action=repository_view_main_item_detail&page_id=13&block_id=8&item_id=206255&item_no=1" target="_blank" rel="noopener">情報処理学会論文誌 データベース. 13 <b>3</b>, 1-10, (2020)</a>
-            </li>
-          </ul>
-        </div>
-
-        <div class="col-md-8 col-md-offset-2 paper">
-          <ul class="list-unstyled">
-            <li>Keiki Fukumoto, <u>Yuta Suzuki</u>, Songyan Hou, Muhammad Danang Birowosuto, Alexandre Jaffre, David Alamarguy, E H T Teo, Hong Wang, Beng Kang Tay, Mohamed Boutchich, “Imaging the defect distribution in 2D hexagonal boron nitride by tracing photogenerated electron dynamics”, <a
-                href="https://iopscience.iop.org/article/10.1088/1361-6463/ab9860" target="_blank" rel="noopener">Journal of Physics D: Applied Physics. (2020)</a>
-            </li>
-          </ul>
-        </div>
-        
-        <div class="col-md-8 col-md-offset-2 paper">
-          <ul class="list-unstyled">
-            <li>Yoshihiko Ozaki, <u>Yuta Suzuki</u>, Takafumi Hawai, Kotaro Saito, Masaki Onishi, Kanta Ono, “Automated crystal structure analysis based on blackbox optimisation”, <a
-                href="https://www.nature.com/articles/s41524-020-0330-9" target="_blank" rel="noopener">npj
-                Computational Materials. <b>6</b>, 75, (2020)</a>
-            </li>
-          </ul>
-        </div>
-
-        <div class="col-md-8 col-md-offset-2 paper">
         <ul class="list-unstyled">
-          <li><u>鈴木雄太</u>, 日野英逸, 小野寛太, “機械学習を用いたX線吸収スペクトル解析の自動化 (Automation of X-ray Absorption Spectra Analysis using Machine Learning)”, <a
-              href="https://doi.org/10.5796/denkikagaku.20-FE0007" target="_blank" rel="noopener">
-              電気化学 (Electrochemistry). <b>88</b>, 1, (2020)</a>
-          </li>
+          <li> Nakajima, Y., Hamaya, M., <b>Suzuki</b>, <b>Y.</b>, Hawai, T., von Drigalski, F., Tanaka, K., ... & Ono, K. (2022). <a href="https://www.researchgate.net/profile/Kazutoshi-Tanaka/publication/373993161_Robotic_Powder_Grinding_with_a_Soft_Jig_for_Laboratory_Automation_in_Material_Science/links/6508034b9fdf0c69dfd86a2a/Robotic-Powder-Grinding-with-a-Soft-Jig-for-Laboratory-Automation-in-Material-Science.pdf" target="_blank" rel="noopener">Robotic powder grinding with a soft jig for laboratory automation in material science</a>. <i>2022 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS2022)</i>, 2320–2326. </li>
         </ul>
       </div>
 
-        <div class="col-md-8 col-md-offset-2 talk">
-          <ul class="list-unstyled">
-            <li><u>Yuta Suzuki</u>, Hideitsu Hino, Takafumi Hawai, Kotaro Saito, Kanta Ono, “Machine learning approach for on-the-fly crystal system classification from powder x-ray diffraction pattern”, TMS 2020 Annual Meeting, 23-27, Feb. (2020)
-            </li>
-          </ul>
-        </div>
+      <div class="col-md-8 col-md-offset-2 paper">
+        <ul class="list-unstyled">
+          <li> <b>Suzuki</b>, <b>Y.</b> (2022). <a href="https://www.tandfonline.com/doi/full/10.1080/08940886.2022.2112496" target="_blank" rel="noopener">Automated data analysis for powder X-ray diffraction using machine learning</a>. <i>Synchrotron Radiation News</i>, <i>35</i> (4), 9–15. </li>
+        </ul>
+      </div>
 
-        <div class="col-md-8 col-md-offset-2 talk">
-            <ul class="list-unstyled">
-              <li><u>鈴木雄太</u>, “物質計測における機械学習応用と知識発見”, <a
-                href="https://sites.google.com/view/statsml-symposium19/" target="_blank" rel="noopener">第4回 統計・機械学習若手シンポジウム</a>, 15-16, Nov. (2019), <b>Invited</b>
-              </li>
-            </ul>
-          </div>
+      <div class="col-md-8 col-md-offset-2 paper">
+        <ul class="list-unstyled">
+          <li> <b>Suzuki</b>, <b>Y.</b>, Taniai, T., Saito, K., Ushiku, Y., & Ono, K. (2022). <a href="https://iopscience.iop.org/article/10.1088/2632-2153/aca23d" target="_blank" rel="noopener">Self-supervised learning of materials concepts from crystal structures via deep neural networks</a>. <i>Machine Learning: Science and Technology</i>, <i>3</i> (4), 045034. </li>
+        </ul>
+      </div>
 
-        <div class="col-md-8 col-md-offset-2 talk">
-          <ul class="list-unstyled">
-            <li><u>Yuta Suzuki</u>, “Machine-learning-aided data analysis in X-ray diffraction and absorption for high-throughput measurement”, <a
-              href="https://sites.google.com/view/yrsr2019/english" target="_blank" rel="noopener">International Young Researchers Workshop 
-              on Synchrotron Radiation Science 2019</a>, 3-4, Sep. (2019), <b>Invited</b>
-            </li>
-          </ul>
-        </div>
-        
-        <div class="col-md-8 col-md-offset-2 talk">
-          <ul class="list-unstyled">
-            <li><u>鈴木雄太</u>, 小嗣真人, 日野英逸, 小野寛太, “回折パターンデータベースの構築と機械学習による結晶構造予測”, 2018年度量子ビームサイエンスフェスタ, 12, Mar. (2019)
-            </li>
-          </ul>
-        </div>
-        
-        <div class="col-md-8 col-md-offset-2 talk">
-          <ul class="list-unstyled">
-            <li><u>鈴木雄太</u>, 小嗣真人, 日野英逸, 小野寛太, “X線回折パターンからの結晶構造予測”, 第66回 応用物理学会 春季学術講演会, 9, Mar. (2019)
-            </li>
-          </ul>
-        </div>
-        <div class="col-md-8 col-md-offset-2 paper">
-          <ul class="list-unstyled">
-            <li><u>Yuta Suzuki</u>, Hideitsu Hino, Masato Kotsugi, Kanta Ono, “Automated estimation of materials
-              parameter from X-ray absorption and electron energy-loss spectra with similarity measures”, <a
-                href="https://www.nature.com/articles/s41524-019-0176-1" target="_blank" rel="noopener">npj
-                Computational Materials. <b>5</b>, 39, (2019)</a>
-            </li>
-          </ul>
-        </div>
+      <div class="col-md-8 col-md-offset-2 paper">
+        <ul class="list-unstyled">
+          <li> Ozaki, Y., <b>Suzuki</b>, <b>Y.</b>, Hawai, T., Saito, K., Onishi, M., & Ono, K. (2020). <a href="https://www.nature.com/articles/s41524-020-0330-9" target="_blank" rel="noopener">Automated crystal structure analysis based on blackbox optimisation</a>. <i>npj Computational Materials</i>, <i>6</i> (1), 75. </li>
+        </ul>
+      </div>
 
-        <div class="col-md-8 col-md-offset-2 paper">
-          <ul class="list-unstyled">
-            <li>Takahiro Yamada, <u>Yuta Suzuki</u>, Chiharu Mitsumata, Kanta Ono, Tetsuro Ueno, Ippei Obayashi, Yasuaki
-              Hirotaka, Masato Kotsugi, “パーシステントホモロジーを用いた迷路状磁区構造におけるトポロジカル欠陥の可視化 (Visualization of Topological Defect in
-              Labyrinth Magnetic Domain by Using Persistent Homology)”,<a href="https://doi.org/10.1380/vss.62.153"
-                target="_blank" rel="noopener">表面と真空 (Vacuum and Surface Science). <b>62</b>, 153–160, (2019)</a>
-            </li>
-          </ul>
-        </div>
-        <div class="col-md-8 col-md-offset-2 paper">
-          <ul class="list-unstyled">
-            <li>Masahiro Saito, Hisaaki Ito, <u>Yuta Suzuki</u>, Masaki Mizuguchi, Tomoyuki Koganezawa, Toshio
-              Miyamachi, Fumio Komori, Koki Takanashi, Masato Kotsugi, “Fabrication of <i>L</i>1<sub>0</sub>-FeNi by
-              pulsed-laser deposition”, <a href="https://aip.scitation.org/doi/10.1063/1.5087041" target="_blank"
-                rel="noopener">Applied Physics Letters. <b>114</b>, 072404, (2019)</a>
-            </li>
-          </ul>
-        </div>
-        <div class="col-md-8 col-md-offset-2 talk">
-          <ul class="list-unstyled">
-            <li><u>Yuta Suzuki</u>, Hideitsu Hino, Takafumi Hawai, Masato Kotsugi, Kanta Ono, “Automated Lattice
-              Constant Estimation of X-ray Diffraction by Ensemble Learning”, The 5th International Conference on
-              Electronic Materials and Nanotechnology for Green Environment (ENGE 2018) , 11-14, Nov. (2018)
-            </li>
-          </ul>
-        </div>
-        <div class="col-md-8 col-md-offset-2 paper">
-          <ul class="list-unstyled">
-            <li>Shingo Yamamoto, Yuya Kubota, Kohei Yamamoto, Yoshinobu Takahashi, Kohei Maruyama, <u> Yuta Suzuki</u>,
-              Rei Hobara, Masami Fujisawa, Daiki Oshima, Shigeki Owada, Tadashi Togashi, Kensuke Tono, Makina Yabashi,
-              Yasuyuki Hirata, Susumu Yamamoto, Masato Kotsugi, Hiroki Wadati, Takeshi Kato, Satoshi Iwata, Shik Shin,
-              and Iwao Matsuda, “Femtosecond resonant magneto-optical Kerr effect measurement on an ultrathin magnetic
-              film in a soft X-ray free electron laser”, <a href="https://doi.org/10.7567/JJAP.57.09TD02"
-                target="_blank" rel="noopener">Japanese Journal of Applied Physics. <b>57</b>, 09TD02, (2018)</a>
-            </li>
-          </ul>
-        </div>
-        <div class="col-md-8 col-md-offset-2 paper">
-          <ul class="list-unstyled">
-            <li><u>Yuta Suzuki</u>, Hideitsu Hino, Yasuo Takeichi, Takafumi Hawai, Masato Kotsugi, Kanta Ono, “Machine
-              Learning-based Crystal Structure Prediction for X-Ray Microdiffraction”, <a
-                href="https://www.cambridge.org/core/journals/microscopy-and-microanalysis/article/machine-learningbased-crystal-structure-prediction-for-xray-microdiffraction/011D284677EB8475F29F7DC6653E99A7"
-                target="_blank" rel="noopener">Microscopy and Microanalysis. <b>24</b>, 144-145, (2018)</a></p>
-            </li>
-          </ul>
-        </div>
-        <div class="col-md-8 col-md-offset-2 paper">
-          <ul class="list-unstyled">
-            <li><u>Yuta Suzuki</u>, Hideitsu Hino, Tetsuro Ueno, Yasuo Takeichi, Masato Kotsugi, Kanta Ono, “Extraction
-              of Physical Parameters from X-ray Spectromicroscopy Data Using Machine Learning”, <a
-                href="https://www.cambridge.org/core/journals/microscopy-and-microanalysis/article/extraction-of-physical-parameters-from-xray-spectromicroscopy-data-using-machine-learning/68A3D162FB7A8540070BBB28826C18A3"
-                target="_blank" rel="noopener">Microscopy and Microanalysis. <b>24</b>, 478-479, (2018)</a></p>
-            </li>
-          </ul>
-        </div>
-        <div class="col-md-8 col-md-offset-2 talk">
-          <ul class="list-unstyled">
-            <li><u>Yuta Suzuki</u>, Hideitsu Hino, Yasuo Takeichi, Takafumi Hawai, Masato Kotsugi, Kanta Ono, “Machine
-              Learning-based Crystal Structure Prediction for X-Ray Microdiffraction”, The 14th International Conference
-              on X-Ray Microscopy (XRM2018), 19-24, Aug. (2018)
-            </li>
-          </ul>
-        </div>
-        <div class="col-md-8 col-md-offset-2 talk">
-          <ul class="list-unstyled">
-            <li><u>Yuta Suzuki</u>, Hideitsu Hino, Tetsuro Ueno, Yasuo Takeichi, Masato Kotsugi, Kanta Ono, “Extraction
-              of Physical Parameters from X-ray Spectromicroscopy Data Using Machine Learning”, The 14th International
-              Conference on X-Ray Microscopy (XRM2018), 19-24, Aug. (2018)
-            </li>
-          </ul>
-        </div>
-        <div class="col-md-8 col-md-offset-2 paper">
-          <ul class="list-unstyled">
-            <li>Sh. Yamamoto, T. Omi, H. Akai, Y. Kubota, Y. Takahashi, <u>Y. Suzuki</u>, Y. Hirata, K. Yamamoto, R.
-              Yukawa, K. Horiba, H. Yumoto, T. Koyama, H. Ohashi, S. Owada, K. Tono, M. Yabashi, E. Shigemasa, S.
-              Yamamoto, M. Kotsugi, H. Wadati, H. Kumigashira, T. Arima, S. Shin, and I. Matsuda, “Element selectivity
-              in second-harmonic generation of GaFeO3 by a soft-x-ray free-electron laser”, <a
-                href="https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.120.223902" target="_blank"
-                rel="noopener">Physical Review Letters. <b>120</b>, 223902, (2018)</a></p>
-            </li>
-          </ul>
-        </div>
-        <div class="col-md-8 col-md-offset-2 talk">
-          <ul class="list-unstyled">
-            <li><u>Yuta Suzuki</u>, Masato Kotsugi, Hideitsu Hino, Kanta Ono, “Classification of Crystal Structure from
-              X-ray Diffraction Patterns using Machine Learning”, The 13th International Conference on Synchrotron
-              Radiation Instrumentation (SRI 2018), 11-15, Jun. (2018)
-            </li>
-          </ul>
-        </div>
-        <div class="col-md-8 col-md-offset-2 talk">
-          <ul class="list-unstyled">
-            <li><u>Yuta Suzuki</u>, Masato Kotsugi, Hideitsu Hino, Kanta Ono, “Estimation of Physical Parameters using
-              Dimensionality Reduction of X-Ray Absorption Spectra”, The 13th International Conference on Synchrotron
-              Radiation Instrumentation (SRI 2018), 11-15, Jun. (2018)
-            </li>
-          </ul>
-        </div>
-        <div class="col-md-8 col-md-offset-2 talk">
-          <ul class="list-unstyled">
-            <li><u>鈴木雄太</u>, 小嗣真人, 日野英逸, 小野寛太, “機械学習を用いたX線回折パターンの分類”, 第73回日本物理学会 春季年次大会, 23, Mar. (2018)
-            </li>
-          </ul>
-        </div>
-        <div class="col-md-8 col-md-offset-2 talk">
-          <ul class="list-unstyled">
-            <li><u>鈴木雄太</u>, 小嗣真人, 日野英逸, 小野寛太, “スペクトルの次元削減によるデータ可視化および物理量推定の検討”, 第65回応用物理学会 春季学術講演会, 20, Mar. (2018)
-            </li>
-          </ul>
-        </div>
-        <div class="col-md-8 col-md-offset-2 talk">
-          <ul class="list-unstyled">
-            <li><u>鈴木雄太</u>, 小嗣真人, 日野英逸, 小野寛太, “X線吸収スペクトルからの物理量の自動抽出”, 第31回日本放射光学会年会・放射光科学合同シンポジウム, 9, Jan. (2018)
-            </li>
-          </ul>
-        </div>
-        <div class="col-md-8 col-md-offset-2 talk">
-          <ul class="list-unstyled">
-            <li><u>Yuta Suzuki</u>, Masato Kotsugi, Hideitsu Hino, Kanta Ono, “Comparison of similarity measures in
-              x-ray absorption spectra for automated physical property estimation”, The 8th International Symposium on
-              Surface Science, 23, Oct. (2017)
-            </li>
-          </ul>
-        </div>
-        <div class="col-md-8 col-md-offset-2 talk">
-          <ul class="list-unstyled">
-            <li><u>鈴木雄太</u>, 小嗣真人, “パルスレーザー蒸着(PLD)装置の高度化および金属薄膜における表面モフォロジーの評価”, 第64回応用物理学会春季学術講演会, 17, Mar. (2017)
-            </li>
-          </ul>
-        </div>
-        <div class="col-md-8 col-md-offset-2 talk">
-          <ul class="list-unstyled">
-            <li><u>鈴木雄太</u>, 小嗣真人, “金属超薄膜の作製に向けたパルスレーザー蒸着装置”, 顕微ナノ材料科学研究会・放射光表面科学研究部会 合同シンポジウム, 2, Mar. (2017) <b>The
-                best poster award</b>
-            </li>
-          </ul>
-        </div>
+      <div class="col-md-8 col-md-offset-2 paper">
+        <ul class="list-unstyled">
+          <li> <b>Suzuki</b>, <b>Y.</b>, Hino, H., Hawai, T., Saito, K., Kotsugi, M., & Ono, K. (2020). <a href="https://www.nature.com/articles/s41598-020-77474-4" target="_blank" rel="noopener">Symmetry prediction and knowledge discovery from X-ray diffraction patterns using an interpretable machine learning approach</a>. <i>Scientific reports</i>, <i>10</i> (1), 21790. </li>
+        </ul>
+      </div>
 
       </div>
     </div>
   </div>
 
+    </div>
+  </div>
+
+  <!-- Activities Section -->
+  <div id="activities" class="container">
+    <div class="section-title text-center center">
+      <h2>Professional Activities</h2>
+      <hr>
+    </div>
+    <div class="row">
+      <div class="col-md-8 col-md-offset-2">
+        <ul class="list-unstyled">
+          <li>Member of Expert Committee in The technical group of Information-Based Induction Sciences and Machine Learning (IBISML)</li>
+          <li>Visiting Scientist in Language Information Access Technology Team (led by Satoshi Sekine), RIKEN AIP</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+
   <!-- Finalcial grant Section -->
   <div class="container">
     <div class="section-title text-center center">
-      <h2>Reserch Grants</h2>
+      <h2>Research Grants</h2>
       <hr>
     </div>
     <div class="row">
@@ -581,7 +344,7 @@
               <div class="timeline-panel">
                 <div class="timeline-heading">
                   <h4>Tokyo University of Science</h4>
-                  <h4 class="subheading">Master of Engeneering</h4>
+                  <h4 class="subheading">Master of Engineering</h4>
                 </div>
                 <div class="timeline-body">
                   <p>Faculty of Industrial Science and Technology<br>
@@ -648,7 +411,7 @@
               <div class="timeline-panel">
                 <div class="timeline-heading">
                   <h4>Tokyo University of Science</h4>
-                  <h4 class="subheading">Bachelor of Engeneering</h4>
+                  <h4 class="subheading">Bachelor of Engineering</h4>
                 </div>
                 <div class="timeline-body">
                   <p>Faculty of Industrial Science and Technology<br>
@@ -695,7 +458,7 @@
   <div id="footer">
     <div class="container text-center">
       <div class="fnav">
-        <p>Copyright &copy; 2016 John Doe. Designed by <a href="http://www.templatewire.com" target="_blank"
+        <p>Copyright &copy; 2024 Yuta Suzuki. Designed by <a href="http://www.templatewire.com" target="_blank"
             rel="noopener">TemplateWire</a></p>
       </div>
     </div>
