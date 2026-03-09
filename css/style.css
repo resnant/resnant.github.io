@@ -607,6 +607,12 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	color: #7bc3d1;
 }
 
+/* Fix bullet point clipping on mobile (iPhone) */
+#portfolio .paper ul,
+#activities ul {
+	padding-left: 1.2em;
+}
+
 /* Media Queries */
 @media(min-width:768px) {
 .intro {
