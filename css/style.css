@@ -556,8 +556,14 @@ color: #2c3e50;
 #contact .social {
 	margin-top: 60px;
 }
+#contact .social ul {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	list-style: none;
+	padding: 0;
+}
 #contact .social ul li {
-	display: inline-block;
 	margin: 0 20px;
 }
 #contact .social i.fa {
@@ -568,6 +574,13 @@ color: #2c3e50;
 }
 #contact .social i.fa:hover {
 	color: #121d1f;
+}
+#contact .social a svg {
+	display: block;
+	transition: all 0.5s;
+}
+#contact .social a:hover svg {
+	fill: #121d1f;
 }
 #contact .btn {
 	background-color: transparent;
@@ -605,6 +618,12 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 }
 #footer a:hover {
 	color: #7bc3d1;
+}
+
+/* Fix bullet point clipping on mobile (iPhone) */
+#portfolio .paper ul,
+#activities ul {
+	padding-left: 1.2em;
 }
 
 /* Media Queries */
