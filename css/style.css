@@ -570,6 +570,8 @@ color: #2c3e50;
 	color: #121d1f;
 }
 #contact .social a svg {
+	padding: 4px 5px;
+	vertical-align: top;
 	transition: all 0.5s;
 }
 #contact .social a:hover svg {
