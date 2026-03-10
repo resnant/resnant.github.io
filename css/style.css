@@ -569,6 +569,12 @@ color: #2c3e50;
 #contact .social i.fa:hover {
 	color: #121d1f;
 }
+#contact .social a svg {
+	transition: all 0.5s;
+}
+#contact .social a:hover svg {
+	fill: #121d1f;
+}
 #contact .btn {
 	background-color: transparent;
 	border: 1px solid #fff;
